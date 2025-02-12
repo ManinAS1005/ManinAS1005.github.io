@@ -1,0 +1,83 @@
+body {
+  background-color: #efefe2d3;
+}
+.header {
+  border-radius: 30%;
+  padding: 2em;
+  position: sticky;
+  top: -70px;
+  background-image: linear-gradient(
+    to right,
+    rgb(123, 116, 64),
+    rgb(114, 174, 23)
+  );
+}
+.header img {
+  height: 100px;
+  position: relative;
+
+  top: 70px;
+}
+
+.header .name {
+  position: absolute;
+  top: 50px;
+  left: 10vw;
+  font-family: "Courier New";
+  font-size: large;
+  color: rgb(228, 216, 216);
+}
+.header .menu {
+  position: absolute;
+  top: 100px;
+  right: 60px;
+}
+.header li {
+  display: inline;
+  margin-left: 2.5em;
+}
+.info {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.me,
+.eat,
+.qualities,
+.help {
+  background-color: rgb(235, 212, 162);
+  border-radius: 2em;
+  word-spacing: 10px;
+  width: 40%;
+  margin: 0.5em;
+  padding: 1em;
+  color: rgb(48, 44, 44);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.info h2 {
+  font-style: italic;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+td img {
+  width: 30vw;
+  border-radius: 10%;
+  border: rgb(224, 240, 135) 10px outset;
+}
+
+.contact {
+  border-radius: 2em;
+  border: rgb(185, 196, 123) 2px solid;
+  background-color: bisque;
+  margin-left: 50%;
+  padding: 5px;
+  font-size: 0.8em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
